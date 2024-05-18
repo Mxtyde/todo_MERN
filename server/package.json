@@ -20,7 +20,11 @@
     "mongoose": "^8.2.4"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@types/bcryptjs": "^2.4.2",
+=======
+    "@types/bcrypt": "^5.0.2",
+>>>>>>> 22a49f6acea118598a155c1611af1be8c4aebc41
     "nodemon": "^3.1.0"
   }
 }
