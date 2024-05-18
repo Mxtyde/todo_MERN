@@ -21,7 +21,7 @@ function Home(){
         }
 
         fetchTodoList()
-    },[refreshList])
+    },[refreshList,navigation])
 
     async function fetchTodoList(){
         const result =await getTodoListApi()

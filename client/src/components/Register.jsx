@@ -21,7 +21,7 @@ function Register() {
         if (user){
             return navigation('/')
         }
-    },[])
+    },[navigation])
 
     const handleInputChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });

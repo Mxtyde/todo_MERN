@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
-import Header from './components/partials/Header';
+// import Header from './components/partials/Header';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
 

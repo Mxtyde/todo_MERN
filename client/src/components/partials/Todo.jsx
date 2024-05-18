@@ -49,7 +49,7 @@ function Todo({todo,setRefreshList}){
     <div className="alert mt-5 bg-dark opacity-75" style={{color:"white"}}>
         <div className="card-header d-flex  justify-content-between align-items-center">
             <div class="form-check form-check-reverse">
-                <input class="form-check-input" type="checkbox" checked={isChecked} onClick={handleDelete} value=""  id="" style={{borderColor: 'black'}}></input>
+                <input class="form-check-input" type="checkbox" checked={isChecked} onClick={handleDelete} onChange={handleMarkTodo} value=""  id="" style={{borderColor: 'black'}}></input>
                 <label class="form-check-label" for="reverseCheck1">
                 </label>
             </div>
