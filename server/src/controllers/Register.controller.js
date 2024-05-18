@@ -1,7 +1,7 @@
 const { validationResult } = require("express-validator");
 // const statusCode = require("../utils/constants");
 const jsonGenerate = require("../utils/helpers");
-const bcrypt = require("bcrypt")
+const bcrypt = require("bcryptjs")
 const mongoose = require("mongoose");
 const user = require("../models/user");
 const { statusCode, JWT_TOKEN_SECRET } = require("../utils/constants");
