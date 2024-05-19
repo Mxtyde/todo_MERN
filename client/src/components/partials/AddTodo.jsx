@@ -7,14 +7,12 @@ function AddTodo({setRefreshList}){
     const [todoDesc ,setTodoDesc] = useState('')
 
     const handelTodoSubmit =async()=>{
-        console.log(todoDesc,'todoDesc')
         if(todoDesc===''){
             toast('Todo is required')
             return
         }
 
         const result= await createTodoApi({desc:todoDesc});
-        console.log(result)
         if(result.status===200 && result.data.status===200){
             toast('Todo Added successfully')
             setRefreshList(new Date())
