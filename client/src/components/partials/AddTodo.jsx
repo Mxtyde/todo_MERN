@@ -7,14 +7,20 @@ function AddTodo({setRefreshList}){
     const [todoDesc ,setTodoDesc] = useState('')
 
     const handelTodoSubmit =async()=>{
+<<<<<<< HEAD
         // console.log(todoDesc,'todoDesc')
+=======
+>>>>>>> 49a759ef43eccdd9a8bca1d5a376758610d0d8c9
         if(todoDesc===''){
             toast('Todo is required')
             return
         }
 
         const result= await createTodoApi({desc:todoDesc});
+<<<<<<< HEAD
         // console.log(result)
+=======
+>>>>>>> 49a759ef43eccdd9a8bca1d5a376758610d0d8c9
         if(result.status===200 && result.data.status===200){
             toast('Todo Added successfully')
             setRefreshList(new Date())

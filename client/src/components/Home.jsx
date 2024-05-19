@@ -25,7 +25,10 @@ function Home(){
 
     async function fetchTodoList(){
         const result =await getTodoListApi()
+<<<<<<< HEAD
         // console.log('todolist',result)
+=======
+>>>>>>> 49a759ef43eccdd9a8bca1d5a376758610d0d8c9
         if(result.status===200 && result.data.status===200){
             setlist(result.data.data.todos)
         }
