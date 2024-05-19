@@ -22,7 +22,7 @@ function Header() {
         <nav className="navbar fixed-top navbar-expand-sm mt-2 bg-dark opacity shadow-lg p-2 mb-50 rounded" style={{ marginLeft: "20px", marginRight: '20px' }}>
             <div className="container-fluid opacity-100">
                 <button
-                    className="navbar-toggler"
+                    className="navbar-toggler bg-secondary"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo03"
